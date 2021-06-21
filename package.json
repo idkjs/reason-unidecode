@@ -3,7 +3,15 @@
   "version": "1.0.0",
   "description": "Convert unicode strings into its ASCII representation.",
   "main": "index.js",
-  "files": ["src/unidecode.re","src/unidecode.rei"],
+  "files": [
+    "src/unidecode.re",
+    "src/unidecode.rei",
+    "dist",
+    "index.js.flow",
+    "dune-project",
+    "unidecode.opam",
+    "bsconfig.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/geneweb/unidecode.git"
@@ -14,8 +22,7 @@
   "bugs": {
     "url": "https://github.com/geneweb/unidecode/issues"
   },
-  "homepage": "https://github.com/geneweb/unidecode#readme"
-,
+  "homepage": "https://github.com/geneweb/unidecode#readme",
   "scripts": {
     "build": "bsb -make-world",
     "clean": "bsb -clean-world",
