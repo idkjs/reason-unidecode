@@ -1,0 +1,13 @@
+{
+  "name": "reason-unidecode",
+  "version": "0.1.0",
+  "sources": {
+    "dir": "src",
+    "files": [ "src/unidecode.re", "src/unidecode.rei" ]
+  },
+  "package-specs": {
+    "in-source": true,
+    "module": "es6",
+    "suffix": ".mjs"
+  }
+}

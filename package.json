@@ -1,0 +1,28 @@
+{
+  "name": "reason-unidecode",
+  "version": "1.0.0",
+  "description": "Convert unicode strings into its ASCII representation.",
+  "main": "index.js",
+  "files": ["src/unidecode.re","src/unidecode.rei"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geneweb/unidecode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/geneweb/unidecode/issues"
+  },
+  "homepage": "https://github.com/geneweb/unidecode#readme"
+,
+  "scripts": {
+    "build": "bsb -make-world",
+    "clean": "bsb -clean-world",
+    "start": "bsb -make-world -w"
+  },
+  "devDependencies": {
+    "bs-platform": "*",
+    "esbuild": "*"
+  }
+}

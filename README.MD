@@ -15,6 +15,15 @@ released in an independent library.
 ```bash
 opam install unidecode
 ```
+```bash
+npm install reason-unidecode
+npm install https://github.com/idkjs/reason-unidecode.git
+```
+```bash
+yarn add reason-unidecode
+yarn add https://github.com/idkjs/reason-unidecode.git
+```
+
 
 ## License
 
